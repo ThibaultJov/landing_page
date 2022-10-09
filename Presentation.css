@@ -1,0 +1,140 @@
+.logo {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: red;
+}
+
+.sommaire {
+    display: flex;
+    justify-content: center;
+    color: red;
+    text-decoration: underline;
+}
+
+.liste-sommaire {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding: 5%;
+}
+
+.liens-externes {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: red;
+    font-size: larger;
+    padding-bottom: 10px;
+}
+
+.nintendo-switch-boite {
+    display: flex;
+    padding-top: 90px;
+    justify-content: center;
+}
+
+.premier-titre {
+    display: flex;
+    color: red;
+    text-decoration: underline;
+    font-family: 'Anton', sans-serif;
+    justify-content: center;
+}
+
+.deuxieme-titre {
+    display: flex;
+    color: red;
+    text-decoration: underline;
+    font-family: 'Anton', sans-serif;
+    justify-content: center;
+}
+
+.paragraphe-1 {
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    border: 5px solid red;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.switch-2 {
+    display: flex;
+    height: 350px;
+    padding-top: 50px;
+}
+
+.paragraphe-2 {
+    display: flex;
+    font-size: 20px;
+    border: 5px solid red;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+.troisieme-titre {
+    display: flex;
+    color: red;
+    text-decoration: underline;
+    font-family: 'Noto Sans JP', sans-serif;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.joycon {
+    display: flex;
+    height: 350px;
+    padding-top: 30px;
+}
+
+.joycon-2 {
+    display: flex;
+    height: 400px;
+    padding-top: 30px;
+}
+
+.paragraphe-3 {
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    border: 5px solid red;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.switch-family {
+    display: flex;
+    height: 350px;
+}
+
+.deuxieme-groupe-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mains-joycons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.famille {
+    display: flex;
+    height: 350px;
+}
+
+.nintendo-switch-en-famille {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 900px) {
+    .deuxieme-groupe-images, .nintendo-switch-en-famille, .mains-joycons {
+        font-size: 24px;
+    }
+}
